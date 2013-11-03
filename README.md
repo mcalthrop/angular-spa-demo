@@ -25,10 +25,12 @@ The functionality has been implemented using the following features:
 * Unobtrusive JS
 * AngularJS
 * semantic HTML5
-* responsive web development/design (no separate m-dot site)
 * well-structured CSS using LESS
+* responsive web development/design (no separate m-dot site)
 * Twitter Bootstrap
 * page data sourced via XHR JSON object
+* multi-browser unit testing with Jasmine & Karma
+* grunt-driven builds to dev and prod distributions
 
 ## Pipeline
 - write unit tests for MarkdownToHtml filter
