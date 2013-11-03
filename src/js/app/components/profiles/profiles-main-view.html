@@ -1,0 +1,49 @@
+<!-- profiles-main-view -->
+
+<div class="profiles-container">
+    <ul class="inline">
+
+        <li data-ng-repeat="profile in profilesModel.getProfiles()" class="profile-container">
+            <span class="profile-header-container">
+                <span class="profile-image-container"><img
+                        data-ng-src="{{profile.data.image.source}}"
+                        alt="{{profile.data.image.alt | ProfilesImageAltText:profile.name.first:profile.name.last}}"
+                        title="{{profile.data.image.alt | ProfilesImageAltText:profile.name.first:profile.name.last}}" /></span>
+                <span class="profile-header">
+                    <h2 class="profile-name">{{profile.name.first}}<br>{{profile.name.last}}</h2>
+                    <span class="profile-links">
+                        <ul class="inline">
+                            <li data-ng-repeat="link in profile.data.links"><a href="{{link.url}}"
+                                                                          target="_blank">{{link.text}}</a>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+            </span>
+
+            <span class="profile-definition">
+
+                <div data-ng-show="profile.data.blurb">
+                    <h3 class="profile-definition-section">OVERVIEW</h3>
+                    <span class="profile-blurb">
+                        <p data-ng-repeat="para in profile.data.blurb" data-ng-bind-html-unsafe="para"></p>
+                    </span>
+                </div>
+
+                <div data-ng-show="profile.data.skillsMatrix">
+                    <h3 class="profile-definition-section">SKILLS</h3>
+                    <span class="profile-skills-matrix">
+                        <ul class="inline">
+                            <li data-ng-repeat="skill in profile.data.skillsMatrix">{{skill}}</li>
+                        </ul>
+                    </span>
+                </div>
+
+            </span>
+        </li>
+
+    </ul>
+
+</div>
+
+<!-- / profiles-main-view -->

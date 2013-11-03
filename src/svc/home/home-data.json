@@ -1,0 +1,10 @@
+{
+    "markdownParagraphs": [
+        "This mini-site is a demonstration of a [single-page application](http://en.wikipedia.org/wiki/Single-page_application) I am creating using AngularJS.",
+        "For a more complex page that illustrates responsive web design, see the [profiles](#/profiles) page.",
+        "I have listed a bunch of useful [resources](#/resources) I have found along the way.",
+        "And for further information describing technical capabilities this site illustrates, see [about](#/about).",
+        "The full source is available on [github](https://github.com/mcalthrop/angular-spa-demo).",
+        "**Note:** this is a work in progress; you can see [what's in the pipeline](https://github.com/mcalthrop/angular-spa-demo#pipeline)."
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "title": "Home",
+    "header": {
+        "title": "Welcome",
+        "paragraphs": [
+            "AngularJS SPA Demo"
+        ]
+    }
+}

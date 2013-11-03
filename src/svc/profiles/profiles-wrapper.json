@@ -1,0 +1,9 @@
+{
+    "title": "Profiles",
+    "header": {
+        "title": "Person Profiles",
+        "paragraphs": [
+            "This page demonstrates a slightly more complex (if contrived) AngularJS page implementation."
+        ]
+    }
+}

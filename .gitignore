@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+test/results
+dist
+node_modules
+bower_components

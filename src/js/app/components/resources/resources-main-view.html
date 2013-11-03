@@ -1,0 +1,120 @@
+<!-- resources-main-view -->
+
+<div>
+    <p data-ng-repeat="para in resourcesModel.getParagraphs()" data-ng-bind-html-unsafe="para"></p>
+
+    <tabset>
+        <tab heading="Getting Started">
+            <p>The basic AngularJS references:</p>
+            <ul>
+                <li><a href="http://angularjs.org/" target="_blank">Main site</a></li>
+                <li><a href="http://docs.angularjs.org/api/" target="_blank">API docs</a></li>
+                <li><a href="http://docs.angularjs.org/guide/overview" target="_blank">Developer Guide</a></li>
+                <li><a href="http://docs.angularjs.org/cookbook/index" target="_blank">Cookbook</a></li>
+                <li><a href="http://docs.angularjs.org/tutorial" target="_blank">Tutorial</a></li>
+                <li><a href="https://groups.google.com/forum/#!forum/angular" target="_blank">Google Group</a></li>
+            </ul>
+            <p>And I found these really helpful:</p>
+            <ul>
+                <li>VIDEO: <a href="https://www.youtube.com/watch?v=ZhfUv0spHCY" target="_blank">AngularJS MTV Meetup:
+                    Best Practices (2012/12/11)</a></li>
+                <li>VIDEO: <a href="https://www.youtube.com/watch?v=i9MHigUZKEM" target="_blank">AngularJS Fundamentals
+                    In 60-ish Minutes</a></li>
+            </ul>
+        </tab>
+        <tab heading="Code Samples">
+            <p>There are lots of boilerplate-type codebases available:</p>
+            <ul>
+                <li><a href="https://github.com/angular-app/angular-app" target="_blank">angular-app</a> &ndash; CRUD
+                    application demo
+                </li>
+                <li><a href="https://github.com/joshdmiller/ng-boilerplate" target="_blank">ng-boilerplate</a> &ndash;
+                    "An opinionated kickstarter" (<a href="http://joshdmiller.github.io/ng-boilerplate/#/home"
+                                                     target="_blank">live site</a>)
+                </li>
+            </ul>
+        </tab>
+        <tab heading="Testing">
+            <p>Reference:</p>
+            <ul>
+                <li><a href="http://pivotal.github.io/jasmine/" target="_blank">Jasmine</a></li>
+                <li><a href="http://karma-runner.github.io/" target="_blank">Karma</a> (previously Testacular)</li>
+            </ul>
+            <p>Articles:</p>
+            <ul>
+                <li><a href="http://tobyho.com/2011/12/15/jasmine-spy-cheatsheet/" target="_blank">The Jasmine Spy
+                    Cheatsheet</a></li>
+                <li><a href="http://newtriks.com/2013/04/26/how-to-test-an-angularjs-directive/" target="_blank">How To
+                    Test An AngularJS Directive</a></li>
+                <li><a href="http://docs.angularjs.org/api/ngMock.$httpBackend" target="_blank">AngularJS:
+                    $httpBackend</a>
+                </li>
+                <li><a href="http://www.yearofmoo.com/2013/01/full-spectrum-testing-with-angularjs-and-karma.html"
+                       target="_blank">Full-Spectrum Testing with AngularJS and Karma</a></li>
+                <li>VIDEO: <a href="http://www.youtube.com/watch?v=rB5b67Cg6bc" target="_blank">Testing Directives</a>
+                </li>
+                <li>VIDEO: <a href="http://www.youtube.com/watch?v=MVw8N3hTfCI" target="_blank">Testacular (now Karma) -
+                    JavaScript Test Runner</a></li>
+                <li>VIDEO: <a href="http://www.youtube.com/watch?v=5mHjJ4xf_K0" target="_blank">JS.everywhere(Europe)
+                    2012: Testacular, the Spectacular JavaScript Test Runner - Vojta Jína</a></li>
+            </ul>
+        </tab>
+        <tab heading="How To">
+            <p>Here are some specific examples of how to implement various AngularJS features.</p>
+
+            <p>Routing</p>
+            <ul>
+                <li><a href="http://joelhooks.com/blog/2013/07/22/the-basics-of-using-ui-router-with-angularjs/"
+                       target="_blank">The basics of using ui-router with AngularJS</a></li>
+            </ul>
+            <p>Directives</p>
+            <ul>
+                <li><a href="http://www.ng-newsletter.com/posts/directives.html" target="_blank">Build custom directives
+                    with AngularJS</a></li>
+                <li><a href="http://amitgharat.wordpress.com/2013/06/08/the-hitchhikers-guide-to-the-directive/"
+                       target="_blank">The Hitchhiker's Guide to the Directive</a></li>
+            </ul>
+        </tab>
+        <tab heading="Real World">
+            <p>Some real world usage:</p>
+            <ul>
+                <li><a href="http://builtwith.angularjs.org/" target="_blank">Built with AngularJS</a> (some contain
+                    links to the source code)
+                </li>
+                <li><a href="http://joelhooks.com/blog/2013/05/22/lessons-learned-kicking-off-an-angularjs-project/"
+                       target="_blank">Lessons Learned: A Year with a Large AngularJS Project</a></li>
+                <li><a href="http://ruoyusun.com/2013/05/25/things-i-wish-i-were-told-about-angular-js.html"
+                       target="_blank">Things I Wish I Were Told About Angular.js</a></li>
+                <li><a href="http://jjperezaguinaga.com/2013/09/21/angularjs-is-amazing-and-hard-as-hell/"
+                       target="_blank">AngularJS is amazing&hellip; and hard as hell</a></li>
+            </ul>
+        </tab>
+        <tab heading="Sundry">
+            <p>Other useful reference sites:</p>
+            <ul>
+                <li><a href="http://deansofer.com/posts/view/14/AngularJs-Tips-and-Tricks-UPDATED" target="_blank">AngularJS
+                    Tips and Tricks [UPDATED]</a></li>
+                <li><a href="http://www.yearofmoo.com/2012/08/use-angularjs-to-power-your-web-application.html"
+                       target="_blank">Use AngularJS to Power Your Web Application</a></li>
+                <li><a href="http://www.yearofmoo.com/2012/10/more-angularjs-magic-to-supercharge-your-webapp.html"
+                       target="_blank">More AngularJS Magic to Supercharge your Webapp</a>
+                </li>
+                <li><a href="http://briantford.com/blog/huuuuuge-angular-apps.html" target="_blank">Building Huuuuuge
+                    Apps
+                    with AngularJS</a> (I prefer to organise code by component/directive rather than by layer)
+                </li>
+                <li><a href="http://www.egghead.io/" target="_blank">www.egghead.io</a> &ndash; links to lots of
+                    AngularJS videos
+                </li>
+                <li><a href="http://onehungrymind.com/angularjs-sticky-notes-pt-1-architecture/" target="_blank">AngularJS
+                    Sticky Notes Pt 1</a></li>
+                <li><a href="http://vxtindia.com/blog/8-tips-for-angular-js-beginners/" target="_blank">8 Tips for
+                    Angular.js Beginners</a> (but ignore advice to use <code>$rootScope</code>&hellip; grrrr.)
+                </li>
+            </ul>
+        </tab>
+    </tabset>
+
+</div>
+
+<!-- / resources-main-view -->

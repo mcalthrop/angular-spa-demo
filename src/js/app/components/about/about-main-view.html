@@ -1,0 +1,33 @@
+<!-- about-main-view -->
+
+<div>
+    <p data-ng-repeat="para in aboutModel.getParagraphs()" data-ng-bind-html-unsafe="para"></p>
+</div>
+
+<h2>AngularJS implementation</h2>
+<div>
+    <p>When you browse the <a href="https://github.com/mcalthrop/angular-spa-demo" target="_blank">source code</a>, you'll see the following AngularJS features
+        implemented:</p>
+    <ul>
+        <li>modular MVC architecture</li>
+        <li>dependency injection</li>
+        <li>directives</li>
+        <li>filters</li>
+        <li>unit tested, with mocked dependencies</li>
+        <li>2-way data binding</li>
+        <li>view is updated via changes to the model</li>
+    </ul>
+</div>
+
+<h2>Responsive Web Design</h2>
+<div>
+    <p>The <a href="#/profiles">profiles</a> page has been styled responsively, so that the one set of markup displays
+        differently according to viewing device:</p>
+    <ul>
+        <li>desktop</li>
+        <li>tablet</li>
+        <li>mobile</li>
+    </ul>
+</div>
+
+<!-- / about-main-view -->

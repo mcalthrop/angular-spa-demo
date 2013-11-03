@@ -1,0 +1,13 @@
+<!-- main-menu-view -->
+
+<div class="navbar" data-ng-controller="MenuMainController">
+    <div class="navbar-inner">
+        <a class="brand" href="#/home">AngularJS SPA Demo</a>
+        <ul class="nav">
+            <li class="divider-vertical" data-ng-class="{active: menuMainModel.getCurrentMenuItemId()==item.id}" data-ng-repeat="item in menuMainModel.getMenuItems()"><a href="{{item.url}}">{{item.text}}</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- / main-menu-view -->
