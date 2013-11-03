@@ -34,7 +34,9 @@ The functionality has been implemented using the following features:
 - write unit tests for MarkdownToHtml filter
 - modify all content to use Markdown instead of HTML
 - retrieve content from third-party CMS (intention: http://www.contentful.com/)
+- upgrade to Bootstrap v3
 - travis integration
+- investigate [Browser Swarm] (http://www.browserswarm.com/) integration
 - e2e testing
 - other common website functionality:
   - create contact page (placeholder)
