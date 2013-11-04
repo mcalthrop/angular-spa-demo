@@ -10,7 +10,7 @@ Markup has been styled to be responsive, according to the device used to view th
 
 It is intended as a demonstration of technical capabilities rather than design or helpful data. :-)
 
-Note also that it is a work in progress; you can check out what features are in the [pipeline] (#Pipeline).
+Note also that it is a work in progress; you can check out what features are in the [pipeline] (#pipeline).
 
 ## Functionality
 
