@@ -55,10 +55,16 @@ This site is kept up to date with the latest code in the codebase.
 
 ## Usage
 
-Do one of the following:
-* view on my website (links above)
-* pull the relevant branch, as listed above
+Fork/clone this repo, then:
+```
+bower install
+npm install
+grunt dev       # build the dev distribution
+grunt test      # run the unit tests
+grunt docs      # just build the docs
+grunt prod      # build the prod distribution (includes clean, test & docs)
+```
 
-To customise the content, modify the contents of the `svc/pagedata.json` file to suit your requirements.
+To customise the content, modify the contents of the `svc/*/*.json` files to suit your requirements.
 
 Observe the contents of the sample file to see what fields to fill in.
