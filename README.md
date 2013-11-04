@@ -32,6 +32,21 @@ The functionality has been implemented using the following features:
 * multi-browser unit testing with Jasmine & Karma
 * grunt-driven builds to dev and prod distributions
 
+## Usage
+
+Fork/clone this repo, then:
+```
+bower install
+npm install
+grunt dev       # build the dev distribution
+grunt test      # run the unit tests
+grunt docs      # just build the docs
+grunt prod      # build the prod distribution (includes clean, test & docs)
+```
+
+To customise the content, modify the contents of the `svc/*/*.json` files to suit your requirements.
+
+Observe the contents of the sample file to see what fields to fill in.
 ## Pipeline
 - write unit tests for MarkdownToHtml filter
 - modify all content to use Markdown instead of HTML
@@ -52,19 +67,3 @@ The functionality has been implemented using the following features:
 http://www.mattcalthrop.com/angular-spa-demo/
 
 This site is kept up to date with the latest code in the codebase.
-
-## Usage
-
-Fork/clone this repo, then:
-```
-bower install
-npm install
-grunt dev       # build the dev distribution
-grunt test      # run the unit tests
-grunt docs      # just build the docs
-grunt prod      # build the prod distribution (includes clean, test & docs)
-```
-
-To customise the content, modify the contents of the `svc/*/*.json` files to suit your requirements.
-
-Observe the contents of the sample file to see what fields to fill in.
