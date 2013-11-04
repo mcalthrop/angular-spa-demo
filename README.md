@@ -54,6 +54,7 @@ Set up local web servers to point to `dist/dev` and `dist/prod` for _dev_ and _p
 - write unit tests for MarkdownToHtml filter
 - modify all content to use Markdown instead of HTML
 - retrieve content from third-party CMS (http://www.contentful.com/)
+- split `Gruntfile.js` into components (see http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html)
 - upgrade to Bootstrap v3
 - travis integration
 - investigate [Browser Swarm] (http://www.browserswarm.com/) integration
