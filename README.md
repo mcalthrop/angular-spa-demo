@@ -14,7 +14,7 @@ Note also that it is a work in progress; you can check out what features are in 
 
 ## Functionality
 
-This is a simple application that displays profile information for a list of people.
+This is a simple application that displays several pages, including profile information for a list of people.
 
 The sample data is contrived, but shows how the data is stored in JSON format, retrieved via AJAX,
 and inserted into HTML templates.
