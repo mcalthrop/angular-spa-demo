@@ -44,13 +44,16 @@ grunt docs      # just build the docs
 grunt prod      # build the prod distribution (includes clean, test & docs)
 ```
 
-To customise the content, modify the contents of the `svc/*/*.json` files to suit your requirements.
+To customise the content, modify the contents of the following files:
+* `svc/*/*.json`
+* `src/js/app/*/*/*.html`
 
-Observe the contents of the sample file to see what fields to fill in.
+Set up local web servers to point to `dist/dev` and `dist/prod` for _dev_ and _prod_ distributions, respectively.
+
 ## Pipeline
 - write unit tests for MarkdownToHtml filter
 - modify all content to use Markdown instead of HTML
-- retrieve content from third-party CMS (intention: http://www.contentful.com/)
+- retrieve content from third-party CMS (http://www.contentful.com/)
 - upgrade to Bootstrap v3
 - travis integration
 - investigate [Browser Swarm] (http://www.browserswarm.com/) integration
