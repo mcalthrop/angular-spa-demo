@@ -1,7 +1,7 @@
 angular-spa-demo
 ================
 
-Demo code for a Single Page Application using AngularJS
+Demo code for a Single Page Application using AngularJS.
 
 ## Purpose
 This is a sample HTML5 / JS / CSS SPA (Single Page Application) developed with AngularJS.
