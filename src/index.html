@@ -43,10 +43,10 @@
         //<% } %>
         // load all of the dependencies asynchronously.
         $script([
-            'js/lib/angular/1.1.5/angular.js' + cacheBusterUri,
-            'js/lib/angular/1.1.5/angular-resource.js' + cacheBusterUri,
-            'js/lib/angular-ui/0.4.0/ui-bootstrap-tpls-0.4.0.js' + cacheBusterUri,
-            'js/lib/showdown/0.3.1/showdown.js' + cacheBusterUri,
+            'js/lib/angular/<%= config.version.angular %>/angular<%= config.minSuffix %>.js' + cacheBusterUri,
+            'js/lib/angular/<%= config.version.angular %>/angular-resource<%= config.minSuffix %>.js' + cacheBusterUri,
+            'js/lib/angular-ui/bootstrap/<%= config.version.angularUiBootstrap %>/ui-bootstrap-tpls-<%= config.version.angularUiBootstrap %><%= config.minSuffix %>.js' + cacheBusterUri,
+            'js/lib/showdown/<%= config.version.showdown %>/showdown.js' + cacheBusterUri,
 
             '<%= config.mainjs %>' + cacheBusterUri
 

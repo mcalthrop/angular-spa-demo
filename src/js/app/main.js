@@ -10,6 +10,7 @@
  *
  *   - loads all the submodules
  *   - defines routes via `$routeProvider`
+ *   - sets html5Mode to true (removes the # from the route in the URI)
  *
  */
 
@@ -23,8 +24,8 @@ angular.module(
         ]
     ).config(
         [
-            '$routeProvider',
-            function ($routeProvider) {
+            '$locationProvider',
+            function ($routeProvider, $locationProvider) {
                 $routeProvider.when(
                     '/home',
                     {
@@ -54,6 +55,8 @@ angular.module(
                         redirectTo: '/home'
                     }
                 );
+
+                $locationProvider.html5Mode(true);
             }
         ]
     );
