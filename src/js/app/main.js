@@ -24,7 +24,7 @@ angular.module(
         ]
     ).config(
         [
-            '$locationProvider',
+            '$routeProvider',
             function ($routeProvider, $locationProvider) {
                 $routeProvider.when(
                     '/home',
