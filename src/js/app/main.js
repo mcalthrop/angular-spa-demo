@@ -25,7 +25,7 @@ angular.module(
     ).config(
         [
             '$routeProvider',
-            function ($routeProvider, $locationProvider) {
+            function ($routeProvider) {
                 $routeProvider.when(
                     '/home',
                     {
@@ -55,8 +55,6 @@ angular.module(
                         redirectTo: '/home'
                     }
                 );
-
-                $locationProvider.html5Mode(true);
             }
         ]
     );
