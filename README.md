@@ -47,11 +47,11 @@ grunt docs      # just build the docs
 grunt prod      # build the prod distribution (includes clean, test & docs)
 ```
 
-## Running
+### Running
 
 Set up local web servers to point to `dist/dev` and `dist/prod` for _dev_ and _prod_ distributions, respectively.
 
-## Customising
+### Customising
 
 To customise the content, modify the contents of the following files:
 * `svc/*/*.json`
