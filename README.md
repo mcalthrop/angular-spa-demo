@@ -4,6 +4,7 @@ angular-spa-demo
 Demo code for a Single Page Application using AngularJS.
 
 ## Purpose
+
 This is a sample HTML5 / JS / CSS SPA (Single Page Application) developed with AngularJS.
 
 Markup has been styled to be responsive, according to the device used to view the app.
@@ -23,7 +24,7 @@ and inserted into HTML templates.
 
 The functionality has been implemented using the following features:
 * Unobtrusive JS
-* AngularJS
+* AngularJS, documented
 * semantic HTML5
 * well-structured CSS using LESS
 * responsive web development/design (no separate m-dot site)
@@ -40,7 +41,7 @@ bower install
 npm install
 grunt dev       # build the dev distribution
 grunt test      # run the unit tests
-grunt docs      # just build the docs
+grunt docs      # just build the docs (fire up a webserver to view)
 grunt prod      # build the prod distribution (includes clean, test & docs)
 ```
 
@@ -51,14 +52,17 @@ To customise the content, modify the contents of the following files:
 Set up local web servers to point to `dist/dev` and `dist/prod` for _dev_ and _prod_ distributions, respectively.
 
 ## Pipeline
+
+- upgrade AngularJS version
+- upgrade to [Bootstrap v3](http://getbootstrap.com/getting-started/#download)
+- [travis](https://travis-ci.org/) integration
+- move deployment destination to subdir off mcalthrop.github.io
+- split `Gruntfile.js` into components (see http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html)
+- e2e testing with [Protractor](https://github.com/angular/protractor)
 - write unit tests for MarkdownToHtml filter
 - modify all content to use Markdown instead of HTML
 - retrieve content from third-party CMS (http://www.contentful.com/)
-- split `Gruntfile.js` into components (see http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html)
-- upgrade to Bootstrap v3
-- travis integration
 - investigate [Browser Swarm] (http://www.browserswarm.com/) integration
-- e2e testing
 - other common website functionality:
   - create contact page (placeholder)
   - implement contact page form
