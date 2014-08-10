@@ -35,21 +35,31 @@ The functionality has been implemented using the following features:
 
 ## Usage
 
+### Building
+
 Fork/clone this repo, then:
 ```
 bower install
 npm install
 grunt dev       # build the dev distribution
 grunt test      # run the unit tests
-grunt docs      # just build the docs (fire up a webserver to view)
+grunt docs      # just build the docs
 grunt prod      # build the prod distribution (includes clean, test & docs)
 ```
+
+## Running
+
+Set up local web servers to point to `dist/dev` and `dist/prod` for _dev_ and _prod_ distributions, respectively.
+
+## Customising
 
 To customise the content, modify the contents of the following files:
 * `svc/*/*.json`
 * `src/js/app/*/*/*.html`
 
-Set up local web servers to point to `dist/dev` and `dist/prod` for _dev_ and _prod_ distributions, respectively.
+### Viewing the docs
+
+Fire up a web server with `dist/docs` as the webroot, and point your browser.
 
 ## Pipeline
 
