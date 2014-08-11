@@ -63,6 +63,7 @@ Fire up a web server with `dist/docs` as the webroot, and point your browser.
 
 ## Pipeline
 
+- remove async file loading (unnecessary code-bloat)
 - upgrade AngularJS version
 - upgrade to [Bootstrap v3](http://getbootstrap.com/getting-started/#download)
 - [travis](https://travis-ci.org/) integration
