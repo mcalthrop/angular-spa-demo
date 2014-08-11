@@ -14,7 +14,7 @@
         "tests"
     ],
     "dependencies": {
-        "angular-markdown-directive": "~0.1.0"
+        "angular-markdown-directive": "~0.3.0"
     },
     "resolutions": {
         "angular": "~1.2.21"
