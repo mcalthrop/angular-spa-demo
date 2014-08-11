@@ -67,7 +67,6 @@ Fire up a web server with `dist/docs` as the webroot, and point your browser.
 - upgrade to [Bootstrap v3](http://getbootstrap.com/getting-started/#download)
 - [travis](https://travis-ci.org/) integration
 - move deployment destination to subdir off mcalthrop.github.io
-- split `Gruntfile.js` into components (see http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html)
 - e2e testing with [Protractor](https://github.com/angular/protractor)
 - write unit tests for MarkdownToHtml filter
 - modify all content to use Markdown instead of HTML
