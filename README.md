@@ -67,7 +67,6 @@ Fire up a web server with `dist/docs` as the webroot, and point your browser.
 - upgrade AngularJS version
 - upgrade to [Bootstrap v3](http://getbootstrap.com/getting-started/#download)
 - [travis](https://travis-ci.org/) integration
-- move deployment destination to subdir off mcalthrop.github.io
 - e2e testing with [Protractor](https://github.com/angular/protractor)
 - write unit tests for MarkdownToHtml filter
 - modify all content to use Markdown instead of HTML
@@ -82,6 +81,6 @@ Fire up a web server with `dist/docs` as the webroot, and point your browser.
 - i18n
 
 ## Demo site
-http://www.mattcalthrop.com/angular-spa-demo/
+http://mcalthrop.github.io/angular-spa-demo/
 
 This site is kept up to date with the latest code in the codebase.
