@@ -1,6 +1,8 @@
 angular-spa-demo
 ================
 
+[![Build Status](https://travis-ci.org/mcalthrop/angular-spa-demo.svg?branch=master)](https://travis-ci.org/mcalthrop/angular-spa-demo)
+
 Demo code for a Single Page Application using AngularJS.
 
 ## Purpose
