@@ -8,6 +8,7 @@ install:
   - npm config set spin false
   # Log HTTP requests
   - npm config set loglevel http
+  - npm install -g bower
   - time bower install
   - time npm install
 
