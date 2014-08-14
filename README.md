@@ -61,24 +61,14 @@ To customise the content, modify the contents of the following files:
 
 Fire up a web server with `dist/docs` as the webroot, and point your browser.
 
-## Pipeline
+## Issues
 
-- remove async file loading (unnecessary code-bloat)
-- upgrade AngularJS version
-- upgrade to [Bootstrap v3](http://getbootstrap.com/getting-started/#download)
-- [travis](https://travis-ci.org/) integration
-- e2e testing with [Protractor](https://github.com/angular/protractor)
-- write unit tests for MarkdownToHtml filter
-- modify all content to use Markdown instead of HTML
-- retrieve content from third-party CMS (http://www.contentful.com/)
-- investigate [Browser Swarm] (http://www.browserswarm.com/) integration
-- other common website functionality:
-  - create contact page (placeholder)
-  - implement contact page form
-  - a new page that has multiple subpages (1, 2, 3, etc)
-- use main menu service to store all info required to dynamically generate routes
-- sort out display of bullet points between links (slightly offset)
-- i18n
+The github issue system holds the issues for this project:
+
+* [all](issues)
+* [bugs](labels/bugs)
+* [enhancements](labels/enhancement)
+* [investigate](labels/investigate)
 
 ## Demo site
 http://mcalthrop.github.io/angular-spa-demo/
