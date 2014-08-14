@@ -65,10 +65,10 @@ Fire up a web server with `dist/docs` as the webroot, and point your browser.
 
 The github issue system holds the issues for this project:
 
-* [all](issues)
-* [bugs](labels/bugs)
-* [enhancements](labels/enhancement)
-* [investigate](labels/investigate)
+* [all](./issues)
+* [bugs](./labels/bugs)
+* [enhancements](./labels/enhancement)
+* [investigate](./labels/investigate)
 
 ## Demo site
 http://mcalthrop.github.io/angular-spa-demo/
