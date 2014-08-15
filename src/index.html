@@ -5,6 +5,8 @@
     <title data-ng-controller="PageTitleController"
            data-ng-bind-template="{{pageTitleModel.getTitle()}}">Home</title>
 
+    <!-- <%= config.timestamp %> -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -32,11 +34,11 @@
 
 </div>
 
-<script src="js/lib/angular/<%= config.version.angular %>/angular<%= config.minSuffix %>.js?<%= cacheBuster %>"></script>
-<script src="js/lib/angular/<%= config.version.angular %>/angular-resource<%= config.minSuffix %>.js?<%= cacheBuster %>"></script>
-<script src="js/lib/angular-ui/bootstrap/<%= config.version.angularUiBootstrap %>/ui-bootstrap-tpls-<%= config.version.angularUiBootstrap %><%= config.minSuffix %>.js?<%= cacheBuster %>"></script>
-<script src="js/lib/showdown/<%= config.version.showdown %>/showdown.js?<%= cacheBuster %>"></script>
-<script src="<%= config.mainjs %>?<%= cacheBuster %>"></script>
+<script src="js/lib/angular/<%= config.version.angular %>/angular<%= config.minSuffix %>.js<%= config.cacheBuster %>"></script>
+<script src="js/lib/angular/<%= config.version.angular %>/angular-resource<%= config.minSuffix %>.js<%= config.cacheBuster %>"></script>
+<script src="js/lib/angular-ui/bootstrap/<%= config.version.angularUiBootstrap %>/ui-bootstrap-tpls-<%= config.version.angularUiBootstrap %><%= config.minSuffix %>.js<%= config.cacheBuster %>"></script>
+<script src="js/lib/showdown/<%= config.version.showdown %>/showdown.js<%= config.cacheBuster %>"></script>
+<script src="<%= config.mainjs %><%= config.cacheBuster %>"></script>
 
 </body>
 </html>
