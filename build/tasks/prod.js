@@ -7,6 +7,8 @@ module.exports = function (grunt) {
             'less:prod',
             'ngmin:prod',
             'uglify:prod',
+            'copy:prod_ui_bootstrap',
+            'copy:prod_showdown',
             'copy:prod',
             'template:prod',
             'clean:docs',
