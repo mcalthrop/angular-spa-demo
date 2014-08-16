@@ -2,8 +2,7 @@
  * Main LESS CSS file.
  */
 
-@import "lib/bootstrap/2.3.1/less/bootstrap";
-@import "lib/bootstrap/2.3.1/less/responsive";
+@import "../../bower_components/bootstrap/less/bootstrap";
 
 .baseTextColor {
     color: #111111;
@@ -71,11 +70,11 @@ li {
     margin-top: 24px;
 }
 
-.profiles-container ul.inline {
+.profiles-container ul.list-inline {
     margin: 12px 0 0 0;
 }
 
-.profiles-container > ul.inline > li {
+.profiles-container > ul.list-inline > li {
     margin: 0 6px 9px 0;
     padding: 0;
     vertical-align: top;
@@ -136,7 +135,7 @@ li {
     ul {
         margin-top: 4px;
     }
-    ul.inline > li {
+    ul.list-inline > li {
         margin: 0;
         padding: 0 0 4px 0;
         font-size: 0.85em;
@@ -149,7 +148,7 @@ li {
 .profile-links {
     display: block;
     margin-top: 0;
-    ul.inline {
+    ul.list-inline {
         margin-top: 0;
         > li {
             line-height: normal;
@@ -224,7 +223,7 @@ li {
         .paddingTablet;
     }
 
-    .profiles-container > ul.inline > li {
+    .profiles-container > ul.list-inline > li {
         width: 32%;
     }
 }
@@ -236,7 +235,7 @@ li {
         .paddingTablet;
     }
 
-    .profiles-container > ul.inline > li {
+    .profiles-container > ul.list-inline > li {
         width: 48%;
     }
 }
@@ -265,7 +264,7 @@ li {
         }
     }
 
-    .profiles-container > ul.inline > li {
+    .profiles-container > ul.list-inline > li {
         margin-right: 1px;
         width: 48%;
     }
@@ -282,7 +281,7 @@ li {
 
 /* Portrait phones */
 @media (max-width: 320px) {
-    .profiles-container > ul.inline > li {
+    .profiles-container > ul.list-inline > li {
         margin-right: 0;
         width: 100%;
     }

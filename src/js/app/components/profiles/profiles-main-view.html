@@ -1,9 +1,10 @@
 <!-- profiles-main-view -->
 
 <div class="profiles-container">
-    <ul class="inline">
+    <ul class="list-inline">
 
-        <li data-ng-repeat="profile in profilesModel.getProfiles()" class="profile-container">
+        <li data-ng-repeat="profile in profilesModel.getProfiles()"
+            class="profile-container">
             <span class="profile-header-container">
                 <span class="profile-image-container"><img
                         data-ng-src="{{profile.data.image.source}}"
@@ -12,9 +13,9 @@
                 <span class="profile-header">
                     <h2 class="profile-name">{{profile.name.first}}<br>{{profile.name.last}}</h2>
                     <span class="profile-links">
-                        <ul class="inline">
+                        <ul class="list-inline">
                             <li data-ng-repeat="link in profile.data.links"><a href="{{link.url}}"
-                                                                          target="_blank">{{link.text}}</a>
+                                                                               target="_blank">{{link.text}}</a>
                             </li>
                         </ul>
                     </span>
@@ -34,7 +35,7 @@
                 <div data-ng-show="profile.data.skillsMatrix">
                     <h3 class="profile-definition-section">SKILLS</h3>
                     <span class="profile-skills-matrix">
-                        <ul class="inline">
+                        <ul class="list-inline">
                             <li data-ng-repeat="skill in profile.data.skillsMatrix">{{skill}}</li>
                         </ul>
                     </span>
