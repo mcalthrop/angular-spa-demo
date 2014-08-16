@@ -14,7 +14,7 @@ echo "$SELF: install angular-ui-bootstrap templates"
 (
     cd bower_components/angular-ui-bootstrap
     npm install
-    grunt build
+    grunt default
 )
 
 echo "$SELF: finish"
