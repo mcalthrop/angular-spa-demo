@@ -3,29 +3,27 @@
 <nav class="navbar navbar-default navbar-static-top"
      data-ng-controller="MenuMainController">
 
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button"
-                    class="navbar-toggle"
-                    data-toggle="collapse"
-                    data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a id="menu-link-logo"
-               class="navbar-brand" href="#/home">AngularJS SPA Demo</a>
-        </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li id="menu-item-{{item.id}}"
-                    data-ng-class="{active: menuMainModel.getCurrentMenuItemId()==item.id}"
-                    data-ng-repeat="item in menuMainModel.getMenuItems()"><a id="menu-link-{{item.id}}"
-                                                                             data-ng-href="{{item.url}}">{{item.text}}</a>
-                </li>
-            </ul>
-        </div>
+    <div class="navbar-header">
+        <button type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a id="menu-link-logo"
+           class="navbar-brand" href="#/home">AngularJS SPA Demo</a>
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li id="menu-item-{{item.id}}"
+                data-ng-class="{active: menuMainModel.getCurrentMenuItemId()==item.id}"
+                data-ng-repeat="item in menuMainModel.getMenuItems()"><a id="menu-link-{{item.id}}"
+                                                                         data-ng-href="{{item.url}}">{{item.text}}</a>
+            </li>
+        </ul>
     </div>
 
 </nav>

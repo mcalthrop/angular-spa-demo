@@ -1,0 +1,95 @@
+/**
+ * Device-dependent CSS
+ */
+
+.marginTablet {
+    margin: 6px;
+}
+
+.paddingTablet {
+    padding: 0;
+}
+
+/* Desktop */
+@media (min-width: 980px) {
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    body {
+        .marginTablet;
+        .paddingTablet;
+    }
+
+    .profiles-container > ul.list-inline > li {
+        width: 32%;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    body {
+        .marginTablet;
+        .paddingTablet;
+    }
+
+    .profiles-container > ul.list-inline > li {
+        width: 48%;
+    }
+}
+
+/* Landscape phones */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+        .marginTablet;
+    }
+
+    // corrections for Bootstrap:
+    .navbar {
+        .navbar-inner {
+            min-height: 0;
+            padding: 0;
+        }
+        .divider-vertical {
+            height: auto;
+        }
+        .nav > li > a {
+            padding: 6px 10px 7px;
+        }
+        .brand {
+            .hide;
+        }
+    }
+
+    .profiles-container > ul.list-inline > li {
+        margin-right: 1px;
+        width: 48%;
+    }
+
+    .profile-image-container {
+        width: 75px;
+        height: 75px;
+    }
+
+    .profile-name {
+        font-size: 1.6em;
+    }
+}
+
+/* Portrait phones */
+@media (max-width: 320px) {
+    .profiles-container > ul.list-inline > li {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .profile-image-container {
+        width: 100px;
+        height: 100px;
+    }
+
+    .profile-name {
+        font-size: 1.8em;
+    }
+}
