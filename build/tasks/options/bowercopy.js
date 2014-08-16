@@ -9,6 +9,7 @@ module.exports = {
         },
         files: {
             'angular<%= template.dev.minSuffix %>.js': 'angular/angular<%= template.dev.minSuffix %>.js',
+            'angular-animate<%= template.dev.minSuffix %>.js': 'angular-animate/angular-animate<%= template.dev.minSuffix %>.js',
             'angular-resource<%= template.dev.minSuffix %>.js': 'angular-resource/angular-resource<%= template.dev.minSuffix %>.js',
             'angular-route<%= template.dev.minSuffix %>.js': 'angular-route/angular-route<%= template.dev.minSuffix %>.js',
             'angular-sanitize<%= template.dev.minSuffix %>.js': 'angular-sanitize/angular-sanitize<%= template.dev.minSuffix %>.js',
@@ -24,6 +25,7 @@ module.exports = {
         },
         files: {
             'angular<%= template.prod.minSuffix %>.js': 'angular/angular<%= template.prod.minSuffix %>.js',
+            'angular-animate<%= template.prod.minSuffix %>.js': 'angular-animate/angular-animate<%= template.prod.minSuffix %>.js',
             'angular-resource<%= template.prod.minSuffix %>.js': 'angular-resource/angular-resource<%= template.prod.minSuffix %>.js',
             'angular-route<%= template.prod.minSuffix %>.js': 'angular-route/angular-route<%= template.prod.minSuffix %>.js',
             'angular-sanitize<%= template.prod.minSuffix %>.js': 'angular-sanitize/angular-sanitize<%= template.prod.minSuffix %>.js',

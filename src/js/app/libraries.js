@@ -3,6 +3,7 @@
 angular.module(
     'AppLibrariesModule',
     [
+        'ngAnimate',
         'ngRoute',
         'ngSanitize',
         'ui.bootstrap'

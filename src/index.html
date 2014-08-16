@@ -26,7 +26,8 @@
 
     <section class="main-section">
 
-        <div data-ng-view data-ng-animate="{enter: 'view-enter'}"></div>
+        <div data-ng-view
+             class="main-view"></div>
 
     </section>
 
@@ -35,6 +36,7 @@
 </div>
 
 <script src="js/lib/angular<%= config.minSuffix %>.js<%= config.cacheBuster %>"></script>
+<script src="js/lib/angular-animate<%= config.minSuffix %>.js<%= config.cacheBuster %>"></script>
 <script src="js/lib/angular-resource<%= config.minSuffix %>.js<%= config.cacheBuster %>"></script>
 <script src="js/lib/angular-route<%= config.minSuffix %>.js<%= config.cacheBuster %>"></script>
 <script src="js/lib/angular-sanitize<%= config.minSuffix %>.js<%= config.cacheBuster %>"></script>

@@ -2,6 +2,15 @@
  * Project-specific CSS classes.
  */
 
+.main-view.ng-enter {
+    opacity: 0;
+    .transition(opacity 0.5s ease-in-out);
+}
+
+.main-view.ng-enter-active {
+    opacity: 1;
+}
+
 .main-container {
 }
 
