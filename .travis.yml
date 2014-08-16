@@ -9,7 +9,7 @@ install:
   # Log HTTP requests
   - npm config set loglevel http
   - npm install -g bower grunt-cli
-  - time npm install
+  - time ./build/scripts/travis-install.bash
 
 before_script:
   - export DISPLAY=:99.0
