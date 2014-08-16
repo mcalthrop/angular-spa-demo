@@ -28,6 +28,20 @@ module.exports = {
         ],
         dest: '<%= env.prod.dest %>/js/lib'
     },
+    dev_showdown: {
+        expand: true,
+        flatten: true,
+        cwd: 'bower_components/showdown/src',
+        src: 'showdown.js',
+        dest: '<%= env.dev.dest %>/js/lib'
+    },
+    prod_showdown: {
+        expand: true,
+        flatten: true,
+        cwd: 'bower_components/showdown/compressed',
+        src: 'showdown.js',
+        dest: '<%= env.prod.dest %>/js/lib'
+    },
     dev: {
         expand: true,
         cwd: 'src',

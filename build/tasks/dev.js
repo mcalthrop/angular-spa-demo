@@ -8,6 +8,7 @@ module.exports = function (grunt) {
             'ngmin:dev',
             'uglify:dev',
             'copy:dev_ui_bootstrap',
+            'copy:dev_showdown',
             'copy:dev',
             'template:dev'
         ]
