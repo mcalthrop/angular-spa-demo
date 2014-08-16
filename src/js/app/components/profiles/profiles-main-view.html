@@ -26,7 +26,8 @@
                 <div data-ng-show="profile.data.blurb">
                     <h3 class="profile-definition-section">OVERVIEW</h3>
                     <span class="profile-blurb">
-                        <p data-ng-repeat="para in profile.data.blurb" data-ng-bind-html-unsafe="para"></p>
+                        <p data-ng-repeat="para in profile.data.blurb"
+                           data-ng-bind-html="para"></p>
                     </span>
                 </div>
 

@@ -5,7 +5,8 @@
     <div class="page-header">
         <h1>{{pageHeaderModel.getTitle()}}</h1>
 
-        <p class="muted" data-ng-repeat="para in pageHeaderModel.getParagraphs()" data-ng-bind-html-unsafe="para"></p>
+        <p class="muted" data-ng-repeat="para in pageHeaderModel.getParagraphs()"
+           data-ng-bind-html="para"></p>
     </div>
 </header>
 

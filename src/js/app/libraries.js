@@ -3,6 +3,8 @@
 angular.module(
     'AppLibrariesModule',
     [
+        'ngRoute',
+        'ngSanitize',
         'ui.bootstrap'
     ]
 );
