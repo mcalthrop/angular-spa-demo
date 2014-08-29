@@ -12,7 +12,6 @@ describe('Testing ProfilesImageAltText filter:', function () {
     }));
 
     describe('when alt text is already supplied', function () {
-
         it('should ignore when first & last name both non-blank', function () {
             var textToFilter = 'has something in it',
                 nameFirst = 'Bruce',
@@ -48,11 +47,9 @@ describe('Testing ProfilesImageAltText filter:', function () {
 
             expect(filterToTest(textToFilter, nameFirst, nameLast)).toEqual(expectedResult);
         });
-
     });
 
     describe('when no alt text is supplied', function () {
-
         it('should concatenate with space first & last name when they are both non-blank', function () {
             var textToFilter = '',
                 nameFirst = 'Bruce',
@@ -88,8 +85,5 @@ describe('Testing ProfilesImageAltText filter:', function () {
 
             expect(filterToTest(textToFilter, nameFirst, nameLast)).toEqual(expectedResult);
         });
-
     });
 });
-
-/* EOF */

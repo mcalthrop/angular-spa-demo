@@ -24,7 +24,6 @@ describe('Testing ResourcesModel:', function () {
     }));
 
     describe('paragraphs setter', function () {
-
         it('is passed correct value', function () {
             spyOn(modelToTest, 'setParagraphs');
             modelToTest.setParagraphs(testParagraphs1);
@@ -36,11 +35,9 @@ describe('Testing ResourcesModel:', function () {
             modelToTest.setParagraphs(testParagraphs1);
             expect(modelToTest.setParagraphs.mostRecentCall.args[0].length).toEqual(testParagraphs1.length);
         });
-
     });
 
     describe('paragraphs getter', function () {
-
         it('should return empty array when no setter called', function () {
             expect(modelToTest.getParagraphs()).toEqual([]);
         });
@@ -55,9 +52,5 @@ describe('Testing ResourcesModel:', function () {
             modelToTest.setParagraphs(testParagraphs2);
             expect(modelToTest.getParagraphs()).toEqual(testParagraphs2);
         });
-
     });
-
 });
-
-/* EOF */

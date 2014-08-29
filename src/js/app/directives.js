@@ -7,5 +7,3 @@ angular.module(
         'MenuDirectivesModule'
     ]
 );
-
-/* EOF */

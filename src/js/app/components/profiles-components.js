@@ -9,5 +9,3 @@ angular.module(
         'ProfilesWrapperServiceModule'
     ]
 );
-
-/* EOF */

@@ -4,6 +4,7 @@ module.exports = function (grunt) {
         [
             'clean:dev',
             'jshint',
+            'jscs',
             'less:dev',
             'ngmin:dev',
             'uglify:dev',

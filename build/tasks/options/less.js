@@ -1,6 +1,6 @@
 module.exports = {
     options: {
-        paths: ["src/css"],
+        paths: ['src/css'],
         src: 'src/css/main.less'
     },
     dev: {

@@ -6,5 +6,3 @@ angular.module(
         'ProfilesImageAltTextFilterModule'
     ]
 );
-
-/* EOF */

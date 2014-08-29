@@ -26,7 +26,4 @@ describe('Testing PageHeaderController:', function () {
     it('should set model correctly on controller', function () {
         expect($scope.pageHeaderModel).toBe(mockPageHeaderModel);
     });
-
 });
-
-/* EOF */

@@ -71,7 +71,6 @@ describe('Testing ProfilesController:', function () {
     });
 
     describe('Profiles data service:', function () {
-
         it('should call data service', function () {
             expect(mockProfilesDataService.query).toHaveBeenCalled();
         });
@@ -87,11 +86,9 @@ describe('Testing ProfilesController:', function () {
                 expect(mostRecentCallArgs[i]).toEqual(mockProfilesDataJson[i]);
             }
         });
-
     });
 
     describe('Profiles wrapper service:', function () {
-
         it('should call wrapper service', function () {
             expect(mockProfilesWrapperService.query).toHaveBeenCalled();
         });
@@ -107,8 +104,5 @@ describe('Testing ProfilesController:', function () {
         it('should call setParagraphs() on page header model', function () {
             expect(mockPageHeaderModel.setParagraphs).toHaveBeenCalled();
         });
-
     });
 });
-
-/* EOF */

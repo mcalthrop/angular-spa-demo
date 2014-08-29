@@ -54,5 +54,3 @@ angular.module(
         };
     }
 );
-
-/* EOF */

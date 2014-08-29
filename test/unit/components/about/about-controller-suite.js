@@ -71,7 +71,6 @@ describe('Testing AboutController:', function () {
     });
 
     describe('About data service:', function () {
-
         it('should call data service', function () {
             expect(mockAboutDataService.query).toHaveBeenCalled();
         });
@@ -87,11 +86,9 @@ describe('Testing AboutController:', function () {
                 expect(mostRecentCallArgs[i]).toEqual(mockAboutDataJson[i]);
             }
         });
-
     });
 
     describe('About wrapper service:', function () {
-
         it('should call wrapper service', function () {
             expect(mockAboutWrapperService.query).toHaveBeenCalled();
         });
@@ -107,8 +104,5 @@ describe('Testing AboutController:', function () {
         it('should call setParagraphs() on page header model', function () {
             expect(mockPageHeaderModel.setParagraphs).toHaveBeenCalled();
         });
-
     });
 });
-
-/* EOF */

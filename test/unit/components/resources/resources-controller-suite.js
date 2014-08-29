@@ -71,7 +71,6 @@ describe('Testing ResourcesController:', function () {
     });
 
     describe('Resources data service:', function () {
-
         it('should call data service', function () {
             expect(mockResourcesDataService.query).toHaveBeenCalled();
         });
@@ -87,11 +86,9 @@ describe('Testing ResourcesController:', function () {
                 expect(mostRecentCallArgs[i]).toEqual(mockResourcesDataJson[i]);
             }
         });
-
     });
 
     describe('Resources wrapper service:', function () {
-
         it('should call wrapper service', function () {
             expect(mockResourcesWrapperService.query).toHaveBeenCalled();
         });
@@ -107,8 +104,5 @@ describe('Testing ResourcesController:', function () {
         it('should call setParagraphs() on page header model', function () {
             expect(mockPageHeaderModel.setParagraphs).toHaveBeenCalled();
         });
-
     });
 });
-
-/* EOF */

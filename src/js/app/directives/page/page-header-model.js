@@ -1,5 +1,4 @@
 /* global angular */
-
 /**
  * @ngdoc object
  * @name PageHeaderModel
@@ -83,5 +82,3 @@ angular.module(
         };
     }
 );
-
-/* EOF */

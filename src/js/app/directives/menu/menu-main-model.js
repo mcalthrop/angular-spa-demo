@@ -28,24 +28,24 @@ angular.module(
             _currentMenuItemId = _HOME,
             _menuItems = [
                 {
-                    "id": _HOME,
-                    "text": "home",
-                    "url": "#/home"
+                    'id': _HOME,
+                    'text': 'home',
+                    'url': '#/home'
                 },
                 {
-                    "id": _PROFILES,
-                    "text": "profiles",
-                    "url": "#/profiles"
+                    'id': _PROFILES,
+                    'text': 'profiles',
+                    'url': '#/profiles'
                 },
                 {
-                    "id": _RESOURCES,
-                    "text": "resources",
-                    "url": "#/resources"
+                    'id': _RESOURCES,
+                    'text': 'resources',
+                    'url': '#/resources'
                 },
                 {
-                    "id": _ABOUT,
-                    "text": "about",
-                    "url": "#/about"
+                    'id': _ABOUT,
+                    'text': 'about',
+                    'url': '#/about'
                 }
             ];
 
@@ -129,5 +129,3 @@ angular.module(
         };
     }
 );
-
-/* EOF */

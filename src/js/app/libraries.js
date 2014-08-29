@@ -9,5 +9,3 @@ angular.module(
         'ui.bootstrap'
     ]
 );
-
-/* EOF */

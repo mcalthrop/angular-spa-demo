@@ -6,5 +6,3 @@ angular.module(
         'MarkdownToHtmlFilterModule'
     ]
 );
-
-/* EOF */

@@ -17,7 +17,6 @@ describe('Testing ProfilesModel:', function () {
     }));
 
     describe('profiles setter', function () {
-
         it('is passed correct value', function () {
             spyOn(modelToTest, 'setProfiles');
             modelToTest.setProfiles(mockProfilesDataJson1);
@@ -29,11 +28,9 @@ describe('Testing ProfilesModel:', function () {
             modelToTest.setProfiles(mockProfilesDataJson1);
             expect(modelToTest.setProfiles.mostRecentCall.args[0].length).toEqual(mockProfilesDataJson1.length);
         });
-
     });
 
     describe('profiles getter', function () {
-
         it('should return empty array when no setter called', function () {
             expect(modelToTest.getProfiles()).toEqual([]);
         });
@@ -48,9 +45,5 @@ describe('Testing ProfilesModel:', function () {
             modelToTest.setProfiles(mockProfilesDataJson2);
             expect(modelToTest.getProfiles()).toEqual(mockProfilesDataJson2);
         });
-
     });
-
 });
-
-/* EOF */
