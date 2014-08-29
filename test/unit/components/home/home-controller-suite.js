@@ -71,7 +71,6 @@ describe('Testing HomeController:', function () {
     });
 
     describe('Home data service:', function () {
-
         it('should call data service', function () {
             expect(mockHomeDataService.query).toHaveBeenCalled();
         });
@@ -87,11 +86,9 @@ describe('Testing HomeController:', function () {
                 expect(mostRecentCallArgs[i]).toEqual(mockHomeDataJson[i]);
             }
         });
-
     });
 
     describe('Home wrapper service:', function () {
-
         it('should call wrapper service', function () {
             expect(mockHomeWrapperService.query).toHaveBeenCalled();
         });
@@ -107,8 +104,5 @@ describe('Testing HomeController:', function () {
         it('should call setMarkdownParagraphs() on page header model', function () {
             expect(mockPageHeaderModel.setParagraphs).toHaveBeenCalled();
         });
-
     });
 });
-
-/* EOF */

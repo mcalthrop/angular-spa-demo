@@ -24,19 +24,16 @@ describe('Testing PageHeaderModel:', function () {
     }));
 
     describe('title setter', function () {
-
         it('is passed correct value', function () {
             spyOn(modelToTest, 'setTitle');
             modelToTest.setTitle(testHeader);
             expect(modelToTest.setTitle).toHaveBeenCalledWith(testHeader);
         });
-
     });
 
     describe('title getter', function () {
-
         it('should return empty array when no setter called', function () {
-            expect(modelToTest.getTitle()).toEqual("");
+            expect(modelToTest.getTitle()).toEqual('');
         });
 
         it('should return parameters set', function () {
@@ -49,11 +46,9 @@ describe('Testing PageHeaderModel:', function () {
             modelToTest.setTitle(testTitle2);
             expect(modelToTest.getTitle()).toEqual(testTitle2);
         });
-
     });
 
     describe('paragraphs setter', function () {
-
         it('is passed correct value', function () {
             spyOn(modelToTest, 'setParagraphs');
             modelToTest.setParagraphs(testParagraphs1);
@@ -65,11 +60,9 @@ describe('Testing PageHeaderModel:', function () {
             modelToTest.setParagraphs(testParagraphs1);
             expect(modelToTest.setParagraphs.mostRecentCall.args[0].length).toEqual(testParagraphs1.length);
         });
-
     });
 
     describe('paragraphs getter', function () {
-
         it('should return empty array when no setter called', function () {
             expect(modelToTest.getParagraphs()).toEqual([]);
         });
@@ -84,9 +77,5 @@ describe('Testing PageHeaderModel:', function () {
             modelToTest.setParagraphs(testParagraphs2);
             expect(modelToTest.getParagraphs()).toEqual(testParagraphs2);
         });
-
     });
-
 });
-
-/* EOF */

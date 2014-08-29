@@ -14,19 +14,16 @@ describe('Testing PageTitleModel:', function () {
     }));
 
     describe('title setter', function () {
-
         it('is passed correct value', function () {
             spyOn(modelToTest, 'setTitle');
             modelToTest.setTitle(testTitle1);
             expect(modelToTest.setTitle).toHaveBeenCalledWith(testTitle1);
         });
-
     });
 
     describe('title getter', function () {
-
         it('should return empty array when no setter called', function () {
-            expect(modelToTest.getTitle()).toEqual("");
+            expect(modelToTest.getTitle()).toEqual('');
         });
 
         it('should return parameters set', function () {
@@ -39,9 +36,5 @@ describe('Testing PageTitleModel:', function () {
             modelToTest.setTitle(testTitle2);
             expect(modelToTest.getTitle()).toEqual(testTitle2);
         });
-
     });
-
 });
-
-/* EOF */

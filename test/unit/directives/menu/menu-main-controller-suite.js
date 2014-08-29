@@ -26,7 +26,4 @@ describe('Testing MenuMainController:', function () {
     it('should set aboutModel correctly on controller', function () {
         expect($scope.menuMainModel).toBe(mockMenuMainModel);
     });
-
 });
-
-/* EOF */

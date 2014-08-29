@@ -24,13 +24,8 @@ describe('Testing PageTitleController:', function () {
     }));
 
     describe('PageTitle data:', function () {
-
         it('should set aboutModel correctly on controller', function () {
             expect($scope.pageTitleModel).toBe(mockPageTitleModel);
         });
-
     });
-
 });
-
-/* EOF */

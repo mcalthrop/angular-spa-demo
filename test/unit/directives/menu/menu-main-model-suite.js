@@ -12,7 +12,6 @@ describe('Testing MenuMainModel:', function () {
     }));
 
     describe('current menu item id setter', function () {
-
         it('is passed correct value', function () {
             var testMenuItemId = modelToTest.ABOUT;
 
@@ -20,11 +19,9 @@ describe('Testing MenuMainModel:', function () {
             modelToTest.setCurrentMenuItemId(testMenuItemId);
             expect(modelToTest.setCurrentMenuItemId).toHaveBeenCalledWith(testMenuItemId);
         });
-
     });
 
     describe('current menu item id getter', function () {
-
         it('gets correct value on first call', function () {
             var expectedMenuItemId = modelToTest.HOME;
 
@@ -50,9 +47,5 @@ describe('Testing MenuMainModel:', function () {
             modelToTest.setCurrentMenuItemId(newMenuItemId3);
             expect(modelToTest.getCurrentMenuItemId()).toEqual(expectedMenuItemId);
         });
-
     });
-
 });
-
-/* EOF */

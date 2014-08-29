@@ -24,7 +24,6 @@ describe('Testing HomeModel:', function () {
     }));
 
     describe('markdown paragraphs setter', function () {
-
         it('is passed correct value', function () {
             spyOn(modelToTest, 'setMarkdownParagraphs');
             modelToTest.setMarkdownParagraphs(testMarkdownParagraphs1);
@@ -36,11 +35,9 @@ describe('Testing HomeModel:', function () {
             modelToTest.setMarkdownParagraphs(testMarkdownParagraphs1);
             expect(modelToTest.setMarkdownParagraphs.mostRecentCall.args[0].length).toEqual(testMarkdownParagraphs1.length);
         });
-
     });
 
     describe('markdown paragraphs getter', function () {
-
         it('should return empty array when no setter called', function () {
             expect(modelToTest.getMarkdownParagraphs()).toEqual([]);
         });
@@ -55,9 +52,5 @@ describe('Testing HomeModel:', function () {
             modelToTest.setMarkdownParagraphs(testMarkdownParagraphs2);
             expect(modelToTest.getMarkdownParagraphs()).toEqual(testMarkdownParagraphs2);
         });
-
     });
-
 });
-
-/* EOF */

@@ -11,7 +11,7 @@ Markup has been styled to be responsive, according to the device used to view th
 
 It is intended as a demonstration of technical capabilities rather than design or helpful data. :-)
 
-Note also that it is a work in progress; you can check out what features are in the [issues] (#issues).
+Note also that it is a work in progress; you can check out what features are in the pipeline in the [issues](#issues) list.
 
 ## Functionality
 
@@ -23,13 +23,15 @@ and inserted into HTML templates.
 ## Implementation
 
 The functionality has been implemented using the following features:
-* Unobtrusive JS
-* AngularJS, documented
+
+* AngularJS 1.2, documented
+* Twitter Bootstrap 3.2
+* Javascript validated with JSHint and JSCS
+* automated CI build on code repo change
 * semantic HTML5
-* well-structured CSS using LESS
+* well-structured CSS built with LESS
 * responsive web development/design (no separate m-dot site)
-* Twitter Bootstrap
-* page data sourced via XHR JSON object
+* page content sourced via XHR service call with JSON response (static)
 * multi-browser unit testing with Jasmine & Karma
 * grunt-driven builds to dev and prod distributions
 
@@ -54,6 +56,7 @@ Set up local web servers to point to `dist/dev` and `dist/prod` for _dev_ and _p
 ### Customising
 
 To customise the content, modify the contents of the following files:
+
 * `svc/*/*.json`
 * `src/js/app/*/*/*.html`
 

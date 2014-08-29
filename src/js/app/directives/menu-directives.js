@@ -8,5 +8,3 @@ angular.module(
         'MenuMainModelModule'
     ]
 );
-
-/* EOF */

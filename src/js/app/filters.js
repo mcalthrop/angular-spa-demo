@@ -7,5 +7,3 @@ angular.module(
         'UtilFiltersModule'
     ]
 );
-
-/* EOF */

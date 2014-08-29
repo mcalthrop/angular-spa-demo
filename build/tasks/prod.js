@@ -3,6 +3,8 @@ module.exports = function (grunt) {
         'prod',
         [
             'clean:prod',
+            'jshint',
+            'jscs',
             'test',
             'less:prod',
             'ngmin:prod',

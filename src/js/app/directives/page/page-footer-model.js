@@ -27,5 +27,3 @@ angular.module(
         return PageFooterModel;
     }
 );
-
-/* EOF */
