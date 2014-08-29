@@ -1,5 +1,5 @@
 module.exports = {
-    src: [
+    files: [
         'Gruntfile.js',
         'build/**/*.js',
         'src/js/app/**/*.js',
@@ -8,7 +8,9 @@ module.exports = {
     options: {
         preset: 'google',
         disallowEmptyBlocks: true,
-        disallowKeywords: ['with'],
+        disallowKeywords: [
+            'with'
+        ],
         disallowKeywordsOnNewLine: [
             'else'
         ],
