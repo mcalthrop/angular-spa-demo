@@ -40,13 +40,17 @@ The functionality has been implemented using the following features:
 ### Building
 
 Fork/clone this repo, then:
-```
-bower install
-npm install
-grunt dev       # build the dev distribution
-grunt test      # run the unit tests
-grunt docs      # just build the docs
-grunt prod      # build the prod distribution (includes clean, test & docs)
+
+``` sh
+$ bower install && npm install
+# build the dev distribution:
+$ grunt dev
+# run the unit tests:
+$ grunt test
+# just build the docs
+$ grunt docs
+# build the prod distribution (includes clean, test & docs) :
+$ grunt prod
 ```
 
 ### Running
@@ -74,6 +78,7 @@ The github issue system holds the issues for this project:
 * [investigate](https://github.com/mcalthrop/angular-spa-demo/labels/investigate)
 
 ## Demo site
-http://mcalthrop.github.io/angular-spa-demo/
+
+[mcalthrop.github.io/angular-spa-demo/](http://mcalthrop.github.io/angular-spa-demo/)
 
 This site is kept up to date with the latest code in the codebase.
