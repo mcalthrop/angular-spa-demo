@@ -8,6 +8,7 @@ module.exports = {
         bestMatch: true
     },
     all: {
-        src: '<%= ngmin.options.src %>'
+        src: '<%= ngmin.options.src %>',
+        title: 'UI Documentation'
     }
 };

@@ -68,7 +68,11 @@ To customise the content, modify the contents of the following files:
 
 ### Viewing the docs
 
-Fire up a web server with `dist/docs` as the webroot, and point your browser.
+Build the docs, fire up a web server with `dist/docs` as the webroot, and point your browser to [`localhost:8001`](http://localhost:8001):
+
+``` sh
+$ ( grunt docs && cd dist/docs && python -m SimpleHTTPServer 8001 )
+```
 
 ## Issues
 
