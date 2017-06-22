@@ -88,3 +88,7 @@ The github issue system holds the issues for this project:
 [mcalthrop.github.io/angular-spa-demo/](http://mcalthrop.github.io/angular-spa-demo/)
 
 This site is kept up to date with the latest code in the codebase.
+
+## License
+
+[MIT](LICENSE)
